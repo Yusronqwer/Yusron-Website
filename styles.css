@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+/* Header */
+header {
+    background: #4B4B4B; /* Dark grey background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333; /* Dark grey border */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-info h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff; /* White text */
+}
+
+.header-info p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #e0e0e0; /* Light grey text */
+}
+
+/* Navigation */
+nav ul {
+    background: #333; /* Dark grey background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333; /* Dark grey text */
+    border-bottom: 2px solid #4B4B4B; /* Dark grey underline */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p, section ul li {
+    color: #333; /* Dark grey text */
+}
+
+/* About Me Section */
+#about p {
+    text-align: justify; /* Justified text alignment */
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.skills-section h3 {
+    font-size: 1.2rem;
+    color: #333; /* Dark grey text */
+    margin-bottom: 10px;
+}
+
+.skills-section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.skills-section ul li {
+    margin-bottom: 5px;
+    color: #333; /* Dark grey text */
+}
+
+/* Footer */
+footer {
+    background: #4B4B4B; /* Dark grey background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-top: 2px solid #333; /* Dark grey border */
+}
